@@ -1,0 +1,59 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Enter the Valid datas",
+        "description": "",
+        "id": "validate-the-text-box-fields;enter-the-valid-datas",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17191264700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the url",
+            "match": {
+              "location": "TextboxStepDefn.launch_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 849106400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter Full Name, Email and Current Address",
+            "match": {
+              "location": "TextboxStepDefn.enter_Full_Name_Email_and_Current_Address()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32641700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click submit button",
+            "match": {
+              "location": "TextboxStepDefn.click_submit_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate the Text box fields",
+    "description": "",
+    "id": "validate-the-text-box-fields",
+    "keyword": "Feature",
+    "uri": "C:/Users/Sindhuja/OneDrive/Documents/Projects/Demo/src/test/java/Feature File/DemoQA.feature",
+    "tags": []
+  }
+]
